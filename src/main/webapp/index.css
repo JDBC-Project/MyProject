@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+button{
+    margin:auto;
+    margin-left:14vw;
+    margin-top:3vh;
+    background-color: #cf245f;
+      background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+      border-radius: 15px;
+      text-decoration: none;
+      box-shadow: rgba(0, 0, 0, 0.423) 20px 20px 20px;
+      color: white;
+      padding: 10px;
+      font-weight: bolder;
+}
+.quote{
+    padding-top:30vh;
+    font-family: 'Great Vibes', cursive;
+    font-size:4rem;
+
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+header {
+    background-color:#E9967A;
+    width:100%;
+    color:black;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width:100%;
+    min-height:93vh;
+    background-image: url("https://t4.ftcdn.net/jpg/06/34/09/69/360_F_634096945_nT013AXOaokOmXXU0mRlfSLmnSbbmZXw.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+
+
+}
+
+
+
+
+button:hover {
+    background-color: #45a049;
+    a{
+        color:white;
+        font-size:bolder;
+    }
+      transition: all ease-out 0.5s;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+
+    bottom: 0;
+    width: 100%;
+}
